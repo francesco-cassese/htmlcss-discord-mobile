@@ -35,8 +35,8 @@ body {
 }
 
 .font-secondary {
-    font-family: "DM Sans" serif;
-    font-weight: 200;
+    font-family: "DM Sans", serif;
+    font-weight: 300;
 }
 
 /*
@@ -55,7 +55,8 @@ body {
 */
 
 .container-section {
-    background-color: var(--color-primary)
+    background-color: var(--color-primary);
+    padding: 20px;
 }
 
 /*
@@ -63,17 +64,18 @@ body {
 */
 
 .section-1 {
-    padding: 80px;
+    padding: 50px;
     text-align: center;
     font-size: large;
 }
 
 .section-1 h2 {
-    font-size: xx-large;
+    font-size: 40px;
+    line-height: 0.9;
 }
 
 .section-1 p {
-    margin-bottom: 10px;
+    margin: 20px 0;
 }
 
 .btn-download,
@@ -106,7 +108,7 @@ body {
 .section-2,
 .section-3 {
     min-height: 300px;
-    margin: 40px 20px;
+    margin: 40px 0;
     background-color: var(--color-secondary);
     position: relative;
     border-radius: 20px;
