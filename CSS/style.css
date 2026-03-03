@@ -50,7 +50,6 @@ body {
 
 .img-header {
     width: 100%;
-    object-fit: cover;
 }
 
 
@@ -99,8 +98,11 @@ body {
     Sezione 2
 */
 
-.section-2 {
+.section-2,
+.section-3 {
+    min-height: 300px;
     margin: 20px;
+    margin-bottom: 10px;
     background-color: var(--color-secondary);
     position: relative;
     border-radius: 20px;
@@ -110,26 +112,31 @@ body {
 
 }
 
-.section-2 h2 {
+.section-2 h2,
+.section-3 h2 {
     font-size: 40px;
     line-height: 0.8;
 }
 
-.section-2 p {
-    margin: 20px;
+.section-2 p,
+.section-3 p {
+    margin: 30px;
 }
 
-.small-logo {
+.small-logo,
+.small-logo-2 {
     position: absolute;
     top: -50px;
     left: 40px;
 }
 
-.discord-cube {
+.discord-cube,
+.eyes-discord {
     height: 100px;
 }
 
-.img-section {
+.img-section,
+.img-section-2 {
     width: 400px;
     border-radius: 20px;
 }
