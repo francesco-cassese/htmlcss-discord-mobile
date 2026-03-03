@@ -13,6 +13,14 @@ body {
 }
 
 /*
+    Main
+*/
+
+.container-section {
+    background-color: var(--color-primary)
+}
+
+/*
    Root & Utilities
 */
 
@@ -42,12 +50,43 @@ body {
 
 .img-header {
     width: 100%;
+    object-fit: cover;
 }
 
+
 /*
-    Main
+    Section 1
 */
 
-.container-section {
-    background-color: var(--color-primary);
+.section-1 {
+    padding: 80px;
+    text-align: center;
+    font-size: large;
+}
+
+.section-1 h2 {
+    font-size: xx-large;
+}
+
+.btn-download,
+.btn-open {
+    font-size: large;
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: var(--btn-bg-color-Download);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-open {
+    background-color: var(--btn-bg-color-Open-discord);
+    padding: 10px 15px;
+    color: white;
+}
+
+.btn-download:hover,
+.btn-open:hover {
+    transform: scale(1.1);
 }
