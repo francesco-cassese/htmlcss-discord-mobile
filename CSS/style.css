@@ -28,10 +28,26 @@ body {
     font-weight: 400;
 }
 
+.txt-white {
+    color: white;
+}
+
+.font-secondary {
+    font-family: "DM Sans" serif;
+}
+
 /*
     Banner Header
 */
 
 .img-header {
     width: 100%;
+}
+
+/*
+    Main
+*/
+
+.container-section {
+    background-color: var(--color-primary);
 }
