@@ -68,6 +68,10 @@ body {
     font-size: xx-large;
 }
 
+.section-1 p {
+    margin-bottom: 10px;
+}
+
 .btn-download,
 .btn-open {
     font-size: large;
@@ -90,3 +94,7 @@ body {
 .btn-open:hover {
     transform: scale(1.1);
 }
+
+/*
+    Sezione 2
+*/
