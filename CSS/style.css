@@ -129,12 +129,19 @@ body {
     margin: 30px 0;
 }
 
-.small-logo,
-.small-logo-2 {
+.small-logo {
     position: absolute;
     top: -50px;
     left: 40px;
 }
+
+.small-logo-2 {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 
 .discord-cube,
 .eyes-discord {
