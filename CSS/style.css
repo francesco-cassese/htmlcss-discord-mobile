@@ -109,13 +109,13 @@ body {
 .section-3 {
     min-height: 300px;
     margin: 40px 0;
-    background-color: var(--color-secondary);
+    background-image: url(../imgs/background.png);
     position: relative;
     border-radius: 20px;
     padding: 40px;
     text-align: left;
     font-size: large;
-
+    background-size: cover;
 }
 
 .section-2 h2,
