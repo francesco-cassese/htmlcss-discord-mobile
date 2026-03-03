@@ -22,3 +22,16 @@ body {
     --btn-bg-color-Open-discord: #5865f2;
     --btn-bg-color-Download: #fff;
 }
+
+.font-title {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+}
+
+/*
+    Banner Header
+*/
+
+.img-header {
+    width: 100%;
+}
