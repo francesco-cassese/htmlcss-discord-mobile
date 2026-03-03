@@ -98,3 +98,42 @@ body {
 /*
     Sezione 2
 */
+
+.section-2 {
+    margin: 20px;
+    background-color: var(--color-secondary);
+    position: relative;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: left;
+    font-size: large;
+
+}
+
+.section-2 h2 {
+    font-size: 40px;
+    line-height: 0.8;
+}
+
+.section-2 p {
+    margin: 20px;
+}
+
+.small-logo {
+    position: absolute;
+    top: -50px;
+    left: 40px;
+}
+
+.discord-cube {
+    height: 100px;
+}
+
+.img-section {
+    width: 400px;
+    border-radius: 20px;
+}
+
+/*
+    Sezione 3
+*/
