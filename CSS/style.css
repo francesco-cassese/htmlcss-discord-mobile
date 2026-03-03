@@ -12,13 +12,7 @@ body {
     margin: 0 auto;
 }
 
-/*
-    Main
-*/
 
-.container-section {
-    background-color: var(--color-primary)
-}
 
 /*
    Root & Utilities
@@ -48,10 +42,20 @@ body {
     Banner Header
 */
 
+
 .img-header {
+    display: block;
     width: 100%;
+    height: auto;
 }
 
+/*
+    Main
+*/
+
+.container-section {
+    background-color: var(--color-primary)
+}
 
 /*
     Section 1
