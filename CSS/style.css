@@ -13,5 +13,12 @@ body {
 }
 
 /*
-    Utilities
+   Root & Utilities
 */
+
+:root {
+    --color-primary: #191c7b;
+    --color-secondary: #5d64d1;
+    --btn-bg-color-Open-discord: #5865f2;
+    --btn-bg-color-Download: #fff;
+}
