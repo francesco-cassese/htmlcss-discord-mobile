@@ -17,7 +17,7 @@ Riprodurre il layout mobile della pagina download di Discord focalizzandosi sull
 ## 📂 Struttura del progetto
 
 ```text
-.
+htmlcss-discord-mobile/
 ├── CSS/           # Cartella foglio di stile
 ├── imgs/          # Cartella immagini
 ├── videos/        # Cartella contenuti video
