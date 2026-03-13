@@ -24,3 +24,6 @@ htmlcss-discord-mobile/
 ├── .gitignore     # File per ignorare file non necessari su Git
 ├── index.html     # Pagina principale del progetto
 └── README.md      # Documentazione del progetto
+```
+
+*Esercizio Boolean - Corso Full Stack Web Developer*
